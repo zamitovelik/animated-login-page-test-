@@ -215,3 +215,32 @@ body {
         justify-content: center;
     }
 }
+@media (max-width:550px) {
+    .container {
+        max-width: 400px;
+        height: 370px;
+    }
+    .form-container h1 {
+        font-size: 24px;
+    }
+    .social-icons {
+        width: 140px;
+        padding: none;
+    }
+    .container button {
+        font-size: 12px;
+
+    }
+    .toggle-panel p {
+        font-size: 12px;
+    }
+    .container form {
+        padding: 0 20px;
+    }
+    .hidden {
+        width: 120px;
+        text-align: center;
+        height: 44px;
+    }
+    
+}
