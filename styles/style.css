@@ -244,3 +244,12 @@ body {
     }
     
 }
+@media (max-width:411px) {
+    .form-container {
+        padding: 0 10px;
+    }
+    .container {
+        width: 370px;
+        margin: 0 30px;
+    }
+}
